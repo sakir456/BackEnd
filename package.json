@@ -1,0 +1,15 @@
+{
+  "name": "backend-by-sakir",
+  "version": "1.0.0",
+  "description": "backEnd by sakir shaikh",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "backEnd"
+  ],
+  "author": "Sakir Shaikh",
+  "license": "ISC"
+}
