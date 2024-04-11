@@ -7,7 +7,7 @@ import { User } from "../models/user.model.js";
 export const verifyJWT = asyncHandler(async(req, _, next) => {
 
     try {
-        //after logging in agiain request from frontend 
+        //after logging in agiain request from client server
       const token =  req.cookies?.accessToken || req.header("Authorization")?.replace("Bearer ", "")
     
       if(!token) {
